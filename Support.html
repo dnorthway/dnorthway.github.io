@@ -1,58 +1,223 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tutorial - Getting Started with the ProjectProdigy App</title>
+    <title>ProjectProdigy Support</title>
     <style>
-        /* Add your CSS styles here */
-        /* ... */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f77f00;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .video-link {
+            color: #f77f00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+            .video-link:hover {
+                text-decoration: underline;
+            }
+
+        /* Navigation Bar Styles */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+            .navbar a {
+                float: left;
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                .navbar a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
     </style>
 </head>
+
 <body>
-    <header>
-        <h1>Tutorial - Getting Started with the ProjectProdigy Project Management App for Excel on the Web</h1>
-    </header>
-    <div class="container">
-        <h2>Welcome to the ProjectProdigy Project Management App Tutorial!</h2>
-        <p>In this guide, we'll walk you through the features and steps to make the most out of this powerful Excel on the web application designed for General Contractors, Specialty Contractors, Suppliers, and Developers.</p>
-
-        <h3>Synopsis:</h3>
-        <p>The ProjectProdigy app is a JavaScript Excel API application that seamlessly integrates with Excel on the web, utilizing platforms like OneDrive and Dropbox to streamline your project management tasks. It automates the creation of essential post-award project documents, making your workflow more efficient. With modules for Purchase Orders, Change Orders, RFIs, RFPs, and Transmittals/Submittals, this app is your go-to tool for staying organized and enhancing collaboration.</p>
-
-        <h3>Advantages:</h3>
-        <ul>
-            <li><strong>Automation:</strong> ProjectProdigy automates the creation, update, and maintenance of various project management documents, saving you time and reducing manual effort.</li>
-            <li><strong>Easy Data Management:</strong> Create, update, filter, and sort records effortlessly. Generate Purchase Orders, RFIs, RFPs, Change Orders, and Transmittals/Submittals with ease.</li>
-            <li><strong>Seamless Contact Integration:</strong> Paste your Outlook project contacts directly into the app. No need to manually input contact information, enhancing accuracy and saving time.</li>
-            <li><strong>Organized Dashboard:</strong> The intuitive Dashboard offers quick navigation and filters for easy access to project information at a glance.</li>
-            <li><strong>Cloud Storage Integration:</strong> Attachments can be stored on OneDrive, Dropbox, and more. Say goodbye to large email attachments; simply share a hyperlink to access files.</li>
-            <li><strong>Platform Flexibility:</strong> Access the app via a web browser on Windows, Mac, and iPad. No need for Microsoft 365 or Office software.</li>
-        </ul>
-        <div style="position:relative;width:fit-content;height:fit-content;">
-            <a style="position:absolute;top:20px;right:1rem;opacity:0.8;" href="https://clipchamp.com/watch/QW9t0RSqWHU?utm_source=embed&utm_medium=embed&utm_campaign=watch">
-                <img loading="lazy" style="height:22px;" src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
-            </a>
-            <iframe allow="autoplay;" allowfullscreen style="border:none" src="https://clipchamp.com/watch/QW9t0RSqWHU/embed" width="640" height="360"></iframe>
-        </div>
-
-        <h2>Getting Started:</h2>
-        <ol>
-            <li><strong>Installation:</strong> Right click and save the provided manifest as a .xml file to your computer. Upload the Project Template to your OneDrive and open it in Excel on the web. Select Add-ins, select Manage My Add-ins, select Upload My Add-in then upload the 'manifest.xml' file to install the app. Click the ProjectProdigy App Save Document button, the task pane will appear.</li>
-            <li><strong>Contacts:</strong> Begin by entering or pasting your Outlook project-specific contacts. These could include A/E, owner, subcontractors, and vendors. Access further help by clicking >HELP on the contacts sheet.</li>
-            <li><strong>Purchase Order:</strong> Create Purchase Orders by filling in the shaded fields. Click the ProjectProdigy App Save Document button, and in the task pane, click the Save Purchase Order button. You can view and print POs and their respective logs.</li>
-            <li><strong>Subcontract Change Order:</strong> Similar to Purchase Orders, enter or select information in shaded fields, save with the ProjectProdigy App, and view/print SCCOs and their logs.</li>
-            <li><strong>Requests for Proposal (RFP):</strong> Fill in the shaded fields, delete unused cells, save with the app, and view/print RFPs, their logs, summaries, proposals, and budget effects.</li>
-            <li><strong>Requests for Information (RFI):</strong> Enter/select information, save, view, and print RFIs and their logs. You can also update RFIs by selecting the appropriate row and filling in unshaded cells.</li>
-            <li><strong>Transmittals/Submittals:</strong> Select the specification section and provide relevant information. Delete or add descriptions as needed, save, view, and print transmittals and their logs. Update by clicking >UpdateTransmittal on the TransmittalView sheet.</li>
-        </ol>
-
-        <p>With ProjectProdigy, your project management becomes efficient and organized. Say goodbye to manual document creation and welcome automated excellence. Happy managing!</p>
-
-        <p>Remember, this tutorial is just a starting point. Dive into the app, explore its features, and tailor them to your specific project management needs.</p>
+    <div class="navbar">
+        <a href="https://dnorthway.github.io/Index.html">Home</a>
+        <a href="https://dnorthway.github.io/Features.html">Features</a>
+        <a href="https://dnorthway.github.io/Support.html">Support</a>
+        <a href="https://dnorthway.github.io/Paste%20Outlook.html">Paste Outlook</a>
+        <a href="https://dnorthway.github.io/Customize.html">Customization</a>
+        <a href="https://www.etsy.com/listing/1553128980/projectprodigy-your-ultimate-project?click_key=00bbb8f5018ab269bc3a4e187df3a14e7e2fe77c%3A1553128980&click_sum=417b626e&ref=shop_home_active_1">Get It Now</a>
     </div>
-    <footer>
-        <p>&copy; 2023 Excellence-US, LLC. All rights reserved.</p>
-    </footer>
-</body>
+
+    <head>
+        <title>ProjectProdigy Support</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #f5f5f5;
+                margin: 0;
+                padding: 0;
+            }
+
+            header {
+                background-color: #f77f00;
+                color: #fff;
+                text-align: center;
+                padding: 20px;
+            }
+
+            h1 {
+                margin: 0;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            .section {
+                background-color: #fff;
+                padding: 20px;
+                margin-bottom: 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            }
+
+            .video-link {
+                color: #f77f00;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+                .video-link:hover {
+                    text-decoration: underline;
+                }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>ProjectProdigy User Guide Help and Support</h1>
+        </header>
+
+        <div class="container">
+            <div class="section">
+                <h2>Install App</h2>
+                <p>For installation instructions, watch the video <a class="video-link" href="https://clipchamp.com/watch/0QuPtzbkCS5">here</a>.</p>
+                <p><strong>Installation:</strong> Right click and save the provided manifest as a .xml file to your computer. Upload the Project Template to your OneDrive and open it in Excel on the web. Select Add-ins, select Manage My Add-ins, select Upload My Add-in then upload the 'manifest.xml' file to install the app. Click the ProjectProdigy App Save Document button, the task pane will appear.</p>
+            </div>
+
+            <div class="section">
+                <h2>DASHBOARD</h2>
+                <p>For dashboard guidance, watch the video <a class="video-link" href="https://clipchamp.com/watch/XXXXXX">here</a>.</p>
+                <p>The Dashboard provides intuitive navigation and select filters for project information at a glance. Filter Requests for Information, Requests for Proposal, and Submittals by status or disposition.</p>
+            </div>
+
+            <div class="section">
+                <h2>CONTACTS</h2>
+                <p>For contacts management, watch the video <a class="video-link" href="https://clipchamp.com/watch/XXXXXX">here</a>.</p>
+                <p>Begin with Contacts. Begin by entering or pasting your Outlook project-specific contacts. These should include A/E, owner, subcontractors, and vendors. Access further help by clicking &gt;HELP on the contacts sheet.</p>
+                <p>Capacity: Up to 2000 contacts.</p>
+            </div>
+
+            <div class="section">
+                <h2>Project Information</h2>
+                <p>For managing project information, watch the video <a class="video-link" href="https://clipchamp.com/watch/XXXXXX">here</a>.</p>
+                <p>Select Project, Owner, and A/E from contacts. Enter Superintendent's name, jobsite phone, and job number.</p>
+            </div>
+
+            <div class="section">
+                <h2>PURCHASE ORDER</h2>
+                <p>For purchase order management, watch the video <a class="video-link" href="https://clipchamp.com/watch/XXXXXX">here</a>.</p>
+                <p>Create Purchase Orders by filling in the shaded fields. Click the ProjectProdigy App Save Document button, and in the task pane, click the Save Purchase Order button. You can view and print POs and their respective logs.</p>
+                <p>Capacity: Up to 2000 purchase orders.</p>
+            </div>
+
+            <div class="section">
+                <h2>SUBCONTRACT CHANGE ORDER</h2>
+                <p>For subcontract change order management, watch the video <a class="video-link" href="https://clipchamp.com/watch/XXXXXX">here</a>.</p>
+                <p>Similar to Purchase Orders, enter or select information in shaded fields, save with the ProjectProdigy App, and view/print SCCOs and their logs.</p>
+                <p>Capacity: Up to 2000 Subcontract Change Orders.</p>
+            </div>
+
+            <div class="section">
+                <h2>REQUESTS FOR PROPOSAL</h2>
+                <p>For requests for proposal management, watch the video <a class="video-link" href="https://clipchamp.com/watch/XXXXXX">here</a>.</p>
+                <p><strong>Requests for Proposal (RFP):</strong> Fill in the shaded fields, delete unused cells containing N\A, save with the app, and view/print RFPs, their logs, summaries, proposals, and budget effects.</p>
+                <p>To update the RFP, on the RFPView sheet click &gt;RFP Status. Select the row of the RFP number and enter or select the information in the unshaded cells.</p>
+                <p>Capacity: Up to 2000 Request for Proposals.</p>
+            </div>
+
+            <div class="section">
+                <h2>REQUESTS FOR INFORMATION</h2>
+                <p>For requests for information management, watch the video <a class="video-link" href="https://clipchamp.com/watch/XXXXXX">here</a>.</p>
+                <p>Enter/select information, save, view, and print RFIs and their logs. You can also update RFIs by selecting the appropriate row on the RFI Status sheet and filling in unshaded cells.</p>
+                <p>Capacity: Up to 2000 Request for Information.</p>
+            </div>
+
+            <div class="section">
+                <h2>TRANSMITTALS/SUBMITTALS</h2>
+                <p>For transmittals/submittals management, watch the video <a class="video-link" href="https://clipchamp.com/watch/XXXXXX">here</a>.</p>
+                <p><strong>Transmittals/Submittals:</strong> Select the specification section and provide relevant information. Delete any descriptions that are not being submitted at this time or add descriptions as needed, save, view, and print transmittals and their logs. Update by clicking &gt;UpdateTransmittal on the TransmittalView sheet.</p>
+                <p>Capacity: Up to 4000 Transmittals.</p>
+            </div>
+
+            <div class="section">
+                <h2>COST CODES</h2>
+                <p>For cost codes management, watch the video <a class="video-link" href="https://clipchamp.com/watch/XXXXXX">here</a>.</p>
+            </div>
+
+            <div class="section">
+                <h2>EQUIPMENT</h2>
+                <p>For equipment management, watch the video <a class="video-link" href="https://clipchamp.com/watch/XXXXXX">here</a>.</p>
+                <p>Enter or paste your project-specific equipment and rates.</p>
+            </div>
+
+            <div class="section">
+                <h2>Crafts</h2>
+                <p>For crafts management, watch the video <a class="video-link" href="https://clipchamp.com/watch/XXXXXX">here</a>.</p>
+                <p>Enter or paste your project-specific crafts and rates.</p>
+            </div>
+
+            <div class="section">
+                <h2>SUBMITTAL SCHEDULE</h2>
+                <p>For submittal schedule management, watch the video <a class="video-link" href="https://clipchamp.com/watch/XXXXXX">here</a>.</p>
+                <p>Enter your project-specific submittal requirements. Click &gt;Example on the submittal schedule sheet for an example.</p>
+            </div>
+
+            <div class="section">
+                <h2>Attachments</h2>
+                <p>For managing attachments, watch the video <a class="video-link" href="https://clipchamp.com/watch/XXXXXX">here</a>.</p>
+                <p>Utilize the cloud! Share your files and copy and paste the link in the Attachment cell on the form. Select the cell and paste the URL of your attachment in the formula bar. File must be stored on a cloud-based file-sharing site like OneDrive and shareable.</p>
+                <p>When the forms are printed with the Microsoft Print to PDF, the link is the attachment. This is very useful when the updated submittal log is published, the links on the PDF document are the submittals.</p>
+            </div>
+        </div>
+    </body>
+
 </html>
