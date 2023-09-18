@@ -8,9 +8,10 @@
   <Description DefaultValue="A template to get started."/>
   <IconUrl DefaultValue="https://projectprodigy2024.z13.web.core.windows.net/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://projectprodigy2024.z13.web.core.windows.net/assets/icon-64.png"/>
-  <SupportUrl DefaultValue="https://www.excellence-us.com/support"/>
+  <SupportUrl DefaultValue="https://dnorthway.github.io/Support.html"/>
   <AppDomains>
-    <AppDomain>https://www.excellence-us.com</AppDomain>
+    <AppDomain>https://dnorthway.github.io/Index.html
+	</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Workbook"/>
