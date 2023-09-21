@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Style for the floppy disk icon */
+        .floppy-disk-icon {
+            width: 100px;
+            height: 100px;
+            background-color: #0074d9; /* Blue background color */
+            border: none; /* Remove the border */
+            position: relative; /* Positioning for center hole */
+            overflow: hidden; /* Hide the overflowing part */
+        }
+
+        /* Inner square to create the floppy disk's center hole */
+        .inner-square {
+            width: 40px;
+            height: 40px;
+            background-color: #fff; /* White color for the center hole */
+            position: absolute; /* Positioning relative to the floppy disk */
+            top: 0; /* Move the center hole to the top */
+            left: 50%; /* Center it horizontally */
+            transform: translateX(-50%); /* Center it horizontally */
+        }
+    </style>
+</head>
+<body>
+    <!-- The floppy disk icon div -->
+    <div class="floppy-disk-icon">
+        <!-- Inner square for the center hole -->
+        <div class="inner-square"></div>
+    </div>
+</body>
+</html>
