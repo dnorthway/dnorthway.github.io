@@ -1,14 +1,21 @@
-﻿
 <!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Excel File</title>
 </head>
 <body>
-    <a href="https://github.com/dnorthway/dnorthway.github.io/raw/main/manifest.xml" download>
-        <button>Download Your FREE Installation File!</button>
-    </a>
+
+  <button onclick="openOnOneDrive()">Open on OneDrive</button>
+
+  <script>
+    function openOnOneDrive() {
+      // Replace the URL with the OneDrive share link to your file
+      var oneDriveLink = "https://1drv.ms/x/s!AuaE9fMMnO3_hJ4Azn1139u4NTWVOQ?e=wMpyJX";
+      window.open(oneDriveLink, "_blank");
+    }
+  </script>
+
 </body>
 </html>
