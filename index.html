@@ -1,27 +1,45 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>ProjectProdigy FREE Construction Project Management App</title>
-    <link rel="icon" href=https://raw.githubusercontent.com/dnorthway/dnorthway.github.io/main/favicon.ico type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Home</title>
+
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-color: #f5f5f5;
+            background-color: #fff;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #f77f00;
-            color: #fff;
+            background-color: #fff;
+            color: #000; /* Set header text color to black */
             text-align: center;
             padding: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
         }
 
-        h1 {
-            margin: 0;
+        nav {
+            background-color: #333;
+            overflow: hidden;
         }
+
+            nav a {
+                float: left;
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                nav a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
 
         .container {
             padding: 20px;
@@ -35,254 +53,94 @@
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
         }
 
-        .video-link {
-            color: #f77f00;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-            .video-link:hover {
-                text-decoration: underline;
-            }
-
-        /* Navigation Bar Styles */
-        .navbar {
-            background-color: #333;
+        /* Floppy disk icon styles */
+        .floppy-disk-icon {
+            width: 50px;
+            height: 50px;
+            background-color: #0074d9;
+            clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0% 95%, 0% 5%);
+            position: relative;
             overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            margin: 0 auto;
+            cursor: pointer;
         }
 
-            .navbar a {
-                float: left;
-                font-size: 16px;
-                color: white;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-            }
+        .inner-square {
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
 
-                .navbar a:hover {
-                    background-color: #ddd;
-                    color: black;
-                }
+        .blue-square {
+            width: 7px;
+            height: 11px;
+            background-color: #0074d9;
+            position: absolute;
+            top: 0;
+            left: 70%;
+            transform: translateX(-50%);
+        }
+
+        .bottom-text {
+            color: white;
+            font-size: 6.5px;
+            line-height: 12px;
+        }
     </style>
-    <head>
-        <title>ProjectProdigy App</title>
-        <style>
-            /* ... (Your existing styles) ... */
+</head>
 
-            /* New styles for flashing text */
-            @keyframes flash {
-                0%, 49%, 100% {
-                    opacity: 1;
-                }
+<body class="ms-font-m ms-welcome ms-Fabric">
 
-                50%, 99% {
-                    opacity: 0;
-                }
-            }
+    <nav>
+        <a href="#">Home</a>
+        <!-- Add more navigation links as needed -->
+    </nav>
 
-            .navbar #donateText {
-                animation: flash 3s infinite; /* Adjust the duration here (e.g., 3s for 3 seconds) */
-            }
-        </style>
-    </head>
+    <header>
+        <a href="https://dnorthway.github.io/help.html" class="floppy-disk-icon">
+            <div class="inner-square">
+                <div class="blue-square"></div>
+            </div>
+            <div class="bottom-text">
+                Data
+            </div>
+        </a>
+        <p><strong>Save almost any data as a record</strong></p>
+        <a href="https://dnorthway.github.io/Support.html" class="floppy-disk-icon">
+            <div class="inner-square">
+                <div class="blue-square"></div>
+            </div>
+            <div class="bottom-text">
+                ProjectProdigy
+            </div>
+        </a>
+        <p><strong>Your Ultimate Project Management Solution</strong></p>
+    </header>
 
-    <body>
-        <div class="navbar">
-            <a href="https://dnorthway.github.io/index.html">Home</a>
-            <a href="https://dnorthway.github.io/Features.html">Features</a>
-            <a href="https://dnorthway.github.io/Support.html">Support</a>
-            <a href="https://dnorthway.github.io/Paste%20Outlook.html">Paste Outlook</a>
-            <a href="https://dnorthway.github.io/Customize.html">Customization</a>
-            <a href="https://www.etsy.com/listing/1553128980/projectprodigy-your-ultimate-project?click_key=7555fd440df66812ab9551a9a9958738dab0a758%3A1553128980&click_sum=b368c25c&ref=shop_home_active_1" id="donateText">Please Donate</a>
-        <iframe src="https://github.com/sponsors/dnorthway/button" title="Sponsor dnorthway" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
+    <div class="container">
+
+        <div class="section">
+            <h1>Welcome to Data and ProjectProdigy</h1>
+            <p>Explore and manage your data efficiently. Microsoft 365 or Excel not required!</p>
         </div>
-        <head>
-            <title>ProjectProdigy</title>
-            <style>
-                <style >
-                /* Style for the floppy disk icon */
-                .floppy-disk-icon {
-                    width: 100px;
-                    height: 120px;
-                    background-color: #0074d9; /* Blue background color */
-                    clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0% 95%, 0% 5%); /* 45-degree cut corners */
-                    position: relative; /* Positioning for center hole */
-                    overflow: hidden; /* Hide the overflowing part */
-                }
 
-                /* Inner square to create the floppy disk's center hole */
-                .inner-square {
-                    width: 40px;
-                    height: 40px;
-                    background-color: #fff; /* White color for the center hole */
-                    position: absolute; /* Positioning relative to the floppy disk */
-                    top: 0; /* Move the center hole to the top */
-                    left: 50%; /* Center it horizontally */
-                    transform: translateX(-50%); /* Center it horizontally */
-                }
+        <!-- Add more sections or content as needed -->
 
-                /* Small blue square within the white square (positioned slightly to the right) */
-                .blue-square {
-                    width: 15px;
-                    height: 30px;
-                    background-color: #0074d9; /* Blue color for the square */
-                    position: absolute; /* Positioning relative to the inner square */
-                    top: 0; /* Move it to the top */
-                    left: 70%; /* Adjust the left property to move it to the right */
-                    transform: translateX(-50%); /* Center it vertically within the inner square */
-                }
+    </div>
 
-                body {
-                    font-family: Arial, Helvetica, sans-serif;
-                    background-color: #f5f5f5;
-                    margin: 0;
-                    padding: 0;
-                }
+    <footer>
+        <p>Questions or feedback? <a href="mailto:dnorthway@gmail.com">Email me.</a></p>
+        <p>&copy; 2023 Excellence-US, LLC. All rights reserved.</p>
+    </footer>
 
-                header {
-                    background-color: #f77f00;
-                    color: #fff;
-                    text-align: center;
-                    padding: 20px;
-                }
+</body>
 
-                h1 {
-                    margin: 0;
-                }
-
-                .container {
-                    padding: 20px;
-                }
-
-                .section {
-                    background-color: #fff;
-                    padding: 20px;
-                    margin-bottom: 20px;
-                    border-radius: 5px;
-                    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-                }
-
-                .video-link {
-                    color: #f77f00;
-                    text-decoration: none;
-                    font-weight: bold;
-                }
-
-                    .video-link:hover {
-                        text-decoration: underline;
-                    }
-
-                <style >
-                /* Center the container horizontally */
-                body {
-                    display: flex;
-                    justify-content: center;
-                    align-items: flex-start;
-                    height: 100vh; /* Ensure full viewport height */
-                    margin: 0; /* Remove default body margin */
-                }
-
-                /* Style for the floppy disk icon */
-                .floppy-disk-icon {
-                    width: 50px;
-                    height: 50px;
-                    background-color: #0074d9; /* Blue background color */
-                    clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0% 95%, 0% 5%); /* 45-degree cut corners */
-                    position: relative; /* Positioning for center hole */
-                    overflow: hidden; /* Hide the overflowing part */
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: flex-end; /* Align content to the bottom */
-                    align-items: center; /* Center items horizontally */
-                }
-
-                /* Inner square to create the floppy disk's center hole */
-                .inner-square {
-                    width: 20px;
-                    height: 20px;
-                    background-color: #fff; /* White color for the center hole */
-                    position: absolute; /* Positioning relative to the floppy disk */
-                    top: 0; /* Move the center hole to the top */
-                    left: 50%; /* Center it horizontally */
-                    transform: translateX(-50%); /* Center it horizontally */
-                }
-
-                /* Small blue square within the white square */
-                .blue-square {
-                    width: 7px;
-                    height: 11px;
-                    background-color: #0074d9; /* Blue color for the square */
-                    position: absolute; /* Positioning relative to the inner square */
-                    top: 0; /* Move it to the bottom of the inner square */
-                    left: 70%; /* Center it horizontally */
-                    transform: translateX(-50%); /* Center it horizontally */
-                }
-
-                /* Style for the text at the bottom */
-                .bottom-text {
-                    color: white; /* Set text color to white */
-                    font-size: 6.5px; /* Adjust font size to make it smaller */
-                    line-height: 12px; /* Center the text vertically within the blue square */
-                }
-            </style>
-
-            <!-- The floppy disk icon div -->
-
-
-            <body class="ms-font-m ms-welcome ms-Fabric">
-                <header>
-                    <div class="floppy-disk-icon">
-                        <!-- Small blue square within the white square -->
-                        <div class="inner-square">
-                            <div class="blue-square"></div>
-                        </div>
-                        <div class="bottom-text">
-                            ProjectProdigy
-                        </div>
-                    </div>
-                    <h1>Welcome to ProjectProdigy</h1>
-                    <p><h2>Your Ultimate Project Management Solution</h2></p>
-                    <p><h2>Absolutely FREE! No data collection! No ads!</h2></p>
-                    <p><h2>Excel or Microsoft 365 are NOT required!</h2></p>
-                </header>
-
-                <div class="container">
-
-                    <div class="section">
-                        <h2>About ProjectProdigy</h2>
-                        <p><strong>This is NOT your typical Excel workbook, it's Excel for the web on steroids!</strong> ProjectProdigy is designed for General Contractors, Specialty Contractors, Suppliers and Developers. Streamline your project management tasks and automate document creation.</p>
-                        <p>With modules for Purchase Orders, Change Orders, RFIs, RFPs, and Transmittals/Submittals, ProjectProdigy is your go-to tool for staying organized and efficient.</p>
-
-                        <!-- Add your slogan here -->
-                        <p><strong>Elevate Your Projects with ProjectProdigy: Efficiency Unleashed!</strong></p>
-
-                        <!-- Add images here -->
-                        <!-- Add a link to your video -->
-                        <iframe width="842" height="474" src="https://www.youtube.com/embed/zmZwMDCWNsQ" title="ProjectProdigy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                        <h2>Why Choose ProjectProdigy?</h2>
-                        <ul>
-                            <li><strong>Efficient Automation:</strong> Save time with automated document creation and management.</li>
-                            <li><strong>Cloud Integration:</strong> Store and share files seamlessly using OneDrive or Dropbox.</li>
-                            <li><strong>Access Anywhere:</strong> Use Windows, Mac, or iPad to access your projects on the go.</li>
-                            <li><strong>Check out these amazing <a href="https://dnorthway.github.io/Features.html" class="cta-button">Features</strong></a></li>
-                       <p>
-
-                        <h2>Get Started Today</h2>
-                        <p>Ready to take control of your projects? <a href="https://dnorthway.github.io/Support.html" class="cta-button"><strong>Install</strong></a> ProjectProdigy FREE and experience the future of project management.</p>
-                        <p>
-                        <p>(ProjectProdigy is FREE for Educational and Commercial purposes!)</p>
-                        <p>Files last updated 12/01/2023</p>
-                        <p>
-                           <a href="https://dnorthway.github.io/PrivacyPolicy.html" class="cta-button">Privacy Policy</a>
-
-                        <p>
-                            <a href="https://dnorthway.github.io/Terms and Conditions.html" class="cta-button">Terms and Conditions</a>
-
-                            <footer>
-                                <p>Questions or feedback? <a href="mailto:dnorthway@gmail.com">Email me.</a> or <a href="https://www.reddit.com/r/ProjectProdigy/">r/ProjectProdigy.</a></p>
-                                <p>&copy; 2023 Excellence-US, LLC. All rights reserved.</p>
-                            </footer>
-            </body>
 </html>
